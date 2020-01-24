@@ -18,7 +18,7 @@ header {
     top: 0;
 }
 
-header a {
+#title {
     text-decoration: none;
     color: white;
 }
@@ -76,6 +76,25 @@ header a {
 
 .hidden {
     visibility: hidden;
+}
+
+.tooltip {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    margin: 5px;
+    border-radius: 6px;
+    z-index: 1;
 }
 
 /* Footer Styles */
