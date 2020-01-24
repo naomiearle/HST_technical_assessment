@@ -1,0 +1,56 @@
+/* Univeral Styles */
+
+body {
+    margin: 0;
+    top: 0;
+    font-family: Helvetica;
+}
+
+/* Header Styles */
+
+header {
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+/* Main Styles */
+
+.main {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.img_con img {
+    height: 350px;
+    width: auto;
+}
+
+#iron_kettle {
+    cursor: pointer;
+}
+
+#pendant_lamp {
+    cursor: pointer;
+}
+
+#sweeper_dustpan {
+    cursor: pointer;
+}
+
+/* Footer Styles */
+
+footer {
+    background-color: #ebdfdf;
+    height: 50px;
+}
+
+footer h5 {
+    margin-left: 20px;
+}
