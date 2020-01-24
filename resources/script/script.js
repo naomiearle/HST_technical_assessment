@@ -4,28 +4,38 @@ let ironKettle = document.getElementById('iron_kettle');
 let pendantLamp = document.getElementById('pendant_lamp');
 let sweeperDustpan = document.getElementById('sweeper_dustpan');
 
+let ironKettleOverlay = document.getElementById('iron_kettle_overlay');
+let pendantLampOverlay = document.getElementById('pendant_lamp_overlay');
+let sweeperDustpanOverlay = document.getElementById('sweeper_dustpan_overlay');
+
 ironKettle.onmouseover = function() {
     ironKettle.src = './resources/images/iron-kettle/iron-kettle-2.jpg';
+    ironKettleOverlay.style.display = 'flex';
 };
 
 ironKettle.onmouseout = function() {
     ironKettle.src = './resources/images/iron-kettle/iron-kettle.jpg';
+    ironKettleOverlay.style.display = 'none';
 };
 
 pendantLamp.onmouseover = function() {
     pendantLamp.src = './resources/images/pendant-lamp/pendant-lamp-2.jpg';
+    pendantLampOverlay.style.display = 'flex';
 };
 
 pendantLamp.onmouseout = function() {
     pendantLamp.src = './resources/images/pendant-lamp/pendant-lamp.jpg';
+    pendantLampOverlay.style.display = 'none';
 };
 
 sweeperDustpan.onmouseover = function() {
     sweeperDustpan.src = './resources/images/sweeper-and-dustpan/sweeper-and-dustpan-2.jpg';
+    sweeperDustpanOverlay.style.display = 'flex';
 };
 
 sweeperDustpan.onmouseout = function() {
     sweeperDustpan.src = './resources/images/sweeper-and-dustpan/sweeper-and-dustpan.jpg';
+    sweeperDustpanOverlay.style.display = 'none';
 };
 
 //icon variables
