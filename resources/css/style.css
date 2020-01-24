@@ -10,12 +10,16 @@ body {
 
 header {
     text-align: center;
-    color: white;
     background-color: black;
     height: auto;
     width: 100%;
     position: fixed;
     top: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
 }
 
 /* Main Styles */
@@ -24,7 +28,6 @@ header {
     margin-top: 120px;
     display: flex;
     justify-content: space-around;
-
 }
 
 .img_con img {
@@ -42,6 +45,26 @@ header {
 
 #sweeper_dustpan {
     cursor: pointer;
+}
+
+/* Overlay Styles */
+
+.overlay {
+    width: 295px;
+    height: 354px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon_con {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 11px;
+}
+
+.hidden {
+    visibility: hidden;
 }
 
 /* Footer Styles */
