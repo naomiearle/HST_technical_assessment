@@ -1,13 +1,11 @@
 //title color change
 
-let title = document.getElementById('title');
-
-title.onmouseover = function() {
-    title.style.color = 'red';
+document.getElementById('title').onmouseover = function() {
+    document.getElementById('title').style.color = 'red';
 };
 
-title.onmouseout = function() {
-    title.style.color = 'white';
+document.getElementById('title').onmouseout = function() {
+    document.getElementById('title').style.color = 'white';
 }
 
 //global variables
@@ -209,3 +207,9 @@ cart3.onmouseout = function() {
     cart3.innerHTML = '<i class="fas fa-shopping-cart"></i>';
     cart3Tooltip.style.visibility = 'hidden';
 };
+
+//json file
+
+const json = '{"_id": {"$oid": "5968dd23fc13ae04d9000001"},"product_name": "Pendant Lamp","supplier": "Wisozk Inc","quantity": 261,"unit_cost": "£10.99","product_images":["images/pendant-lamp/pendant-lamp.jpg","images/pendant-lamp/pendant-lamp-2.jpg"]}, {"_id": {  "$oid": "5968dd23fc13ae04d9000002"},"product_name": "Iron Kettle","supplier": "Keebler-Hilpert","quantity": 292,"unit_cost": "£18.99","product_images":["images/iron-kettle/iron-kettle.jpg","images/iron-kettle/iron-kettle-2.jpg"]}, {"_id": {"$oid": "5968dd23fc13ae04d9000003"},"product_name": "Dextromathorphan HBr","supplier": "Schmitt-Weissnat","quantity": 211,"unit_cost": "$20.53"}';
+const obj = JSON.parse(json);
+
