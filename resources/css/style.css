@@ -94,6 +94,18 @@ header {
     padding: 10px 20px;
     margin: 20px;
     top: 50px;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: red;
+}
+
+.thanks {
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 30px;
+    visibility: hidden;
 }
 
 #iron_kettle {
